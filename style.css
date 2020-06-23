@@ -149,6 +149,7 @@ section {
 
 .menu .logo strong {
     letter-spacing: 0.24em;
+    color: #E8E8E8;
 }
 
 .logo::before {
@@ -322,6 +323,9 @@ footer a{
     color: #E8E8E8;
     font-weight: bold;
     text-decoration: none;
+}
+footer p{
+    color: #E8E8E8;
 }
 
 
