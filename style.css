@@ -15,6 +15,9 @@ html, body {
 :root {
     --avatar-size: 40vh;
 }
+a{
+    cursor: pointer;
+}
 
 h1 {
     font-family: 'Roboto', Georgia;
@@ -86,7 +89,7 @@ section {
     width: 30vh;
     /* --top-offset: -35vh; */
     top: -32vh;
-    left: -20vw;
+    left: -25vw;
     z-index: 3;
 }
 
@@ -225,15 +228,21 @@ section {
 }
 
 .project-container{
-    padding: 15vh 0;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
 
 }
 
 .contact-container{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center; */
+    padding: 15vh 0;
 }
 .contact-button{
+    max-width: 25em;
+    display: block;
+    margin: 0 auto;
     background: #E8E8E8;
     padding: 1em;
     border: none;
@@ -283,12 +292,19 @@ footer p{
     .menu {
         grid-template-columns: 4fr 3fr 4fr;
     }
+    #avatar-footer {
+        left: -100px;
+    }
 }
 
 @media (min-width: 800px) {
+    *{
+        font-size: 14px;
+    }
     .menu {
         grid-template-columns: 5fr 3fr 5fr;
     }
+    
 }
 
 @media (min-width: 1200px) {
