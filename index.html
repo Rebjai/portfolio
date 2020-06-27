@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/carrousel.css">
 
 </head>
 
@@ -42,7 +43,7 @@
     </div>
     <section class="black-grad negative-mt">
         <h1 id="projects" class="white-text">Projects</h1>
-        <div class="project-container">
+        <!-- <div class="project-container">
             <div id="p1" class="project white-grad active">
                 <img class="project-image" src="./images/digitalConverter.png" alt="Analog to digital convertion">
                 <h1 class="project-title">Encoding-js</h1>
@@ -59,7 +60,42 @@
                 <h1 class="project-title">LIDER</h1>
                 <p class="project-description">A prototype for a social and educative platform</p>
             </div>
+        </div> -->
+        <div class="project-container">
+            <div class="carrousel">
+                <div class="carrousel_item">
+                    <div class="carrousel_item_image">
+                        <img src="./images/digitalConverter.png" alt="Analog to digital convertion">
+                    </div>
+                    <div class="carrousel_item_title">Encoding-js</div>
+                    <div class="carrousel_item_description">A utility to translate a binary string to different digital
+                        encodings</div>
+
+                </div>
+
+                <div class="carrousel_item">
+                    <div class="carrousel_item_image">
+                        <img src="./images/snake.png" alt="Classic snake game in vanilla js">
+                    </div>
+                    <div class="carrousel_item_title">Sneaky Snake</div>
+                    <div class="carrousel_item_description">A remake of the classic game done using html,css and vanilla
+                        JS</div>
+
+                </div>
+
+                <div class="carrousel_item">
+                    <div class="carrousel_item_image">
+                        <img src="./images/lider.png" alt="Prototype for educative platform">
+                    </div>
+                    <div class="carrousel_item_title">LIDER</div>
+                    <div class="carrousel_item_description">A prototype for a social and educative platform</div>
+
+                </div>
+
+
+            </div>
         </div>
+
     </section>
 
     <section id="contact" class="white-grad shape-top negative-mt">
@@ -79,8 +115,10 @@
 
         </div>
         <div class="social-container">
-            <div class="social"><a href="https://linkedin.com"><img class="svg" src="/images/linkedin.svg" alt=""></a></div>
-            <div class="social"><a href="https://www.github.com/rebjai"><img class="svg" src="/images/github.svg" alt=""></a></div>
+            <div class="social"><a href="https://linkedin.com"><img class="svg" src="/images/linkedin.svg" alt=""></a>
+            </div>
+            <div class="social"><a href="https://www.github.com/rebjai"><img class="svg" src="/images/github.svg"
+                        alt=""></a></div>
         </div>
         <div class="copyright">
             <p>Designed and coded by <a href="https://www.github.com/rebjai">Rebjai</a></p>
@@ -90,6 +128,7 @@
 
     <!-- <my-menu></my-menu> -->
     <!-- <script src="menu.js"></script> -->
+    <script src="/js/carrousel.js"></script>
 
 </body>
 
