@@ -18,6 +18,7 @@
     border-radius: 3px;
     transition: transform ease-out 300ms; /* filter ease-in-out 150ms;  only transition filter on pc*/
     z-index: 1;
+    cursor: pointer;
 }
 .carrousel_item:hover{
     filter: brightness(75%) blur(0px);

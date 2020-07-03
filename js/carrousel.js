@@ -1,5 +1,5 @@
-$ = (str) => document.querySelector(str);
-$$ = (str) => document.querySelectorAll(str);
+let $ = (str) => document.querySelector(str);
+let $$ = (str) => document.querySelectorAll(str);
 
 let carrouselItems = $$('.carrousel_item');
 let activeIndex = 0;
@@ -29,9 +29,18 @@ let checkActive = (e) => {
     console.log(currentItem, nextItem, prevItem);
     
     if (isActive) {
-        console.log('noting');
+        // if (e.target.classList.)
+        let carrouselElement = e.target.closest('.carrousel_item')
+        let url = carrouselElement.getAttribute('data-link')
+        if(url)
+        window.open(url,'_blank')
+        
+        console.log('noting',carrouselElement);
+
+       
     }
     else {
+
         carrouselItems.forEach((el, i) => {
 
             let isClicked = el == clickedElement
