@@ -22,7 +22,7 @@ a, button{
 h1 {
     font-family: 'Roboto', Georgia;
     font-weight: bold;
-    font-size: 1.75em;
+    font-size: 2.5em;
     line-height: 1.5em;
     text-align: center;
     letter-spacing: 0.39em;
@@ -130,7 +130,7 @@ section {
 
 .menu .logo {
     --deco-heigth: 60%;
-    --deco-width: 5%;
+    --deco-width: 7%;
     --offset: calc(var(--deco-width) - var(--deco-width) * 2 + 1%);
     font-family: 'Quantico';
     background: #242424;
@@ -270,6 +270,7 @@ footer {
 
 .social-container {
     width: 50%;
+    max-width: 250px;
     display: flex;
     height: 8vh;
     margin: 3vh;
