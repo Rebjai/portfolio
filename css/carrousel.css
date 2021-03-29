@@ -56,10 +56,10 @@
     z-index: 1;
 }
 .item-right:hover{
-    transform: translateX(70%) rotate(6deg) translateY(-7%);
+    transform: translateX(62%) rotate(6deg) translateY(-5%);
 }
 .item-left:hover{
-    transform: translateX(-70%) rotate(-6deg) translateY(-7%);
+    transform: translateX(-62%) rotate(-6deg) translateY(-5%);
 }
 .item-active{
     transform: scale(1.2);
