@@ -55,6 +55,12 @@
     filter: brightness(60%) blur(1px) opacity(1);
     z-index: 1;
 }
+.item-right:hover{
+    transform: translateX(70%) rotate(6deg) translateY(-7%);
+}
+.item-left:hover{
+    transform: translateX(-70%) rotate(-6deg) translateY(-7%);
+}
 .item-active{
     transform: scale(1.2);
     filter: brightness(100%) blur(0);
