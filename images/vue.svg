@@ -41,14 +41,16 @@
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.70710678"
-     inkscape:cx="245.07294"
-     inkscape:cy="71.042986"
+     inkscape:cx="182.05844"
+     inkscape:cy="93.999442"
      inkscape:window-x="336"
      inkscape:window-y="121"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg" />
+     inkscape:current-layer="svg"
+     inkscape:document-rotation="0" />
   <g
-     id="svgg">
+     id="svgg"
+     transform="matrix(0.81393231,0,0,0.81393231,37.200606,32.250498)">
     <path
        id="path0"
        d="M 80.106,0.249 C 120.09381,69.371691 159.77694,138.67273 199.988,207.665 240.24639,138.60066 279.92797,69.154215 320.056,-0.003 295.33433,0.05366547 270.61267,0.11033214 245.891,0.167 230.73664,26.444786 215.61302,52.748286 200.36662,78.96725 185.01392,52.692215 169.34385,26.523371 154.081,0.167 129.42322,0.17660577 104.75983,-0.12921039 80.106,0.249 Z"
