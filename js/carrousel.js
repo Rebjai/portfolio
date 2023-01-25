@@ -13,7 +13,7 @@ const addClass = (HTMLelement, className) => {
         HTMLelement.classList.add(className)
     }
     else{
-        console.log('removing...', className , HTMLelement);
+        // console.log('removing...', className , HTMLelement);
         
         HTMLelement.classList.remove(className)
     }
@@ -26,7 +26,7 @@ let checkActive = (e) => {
     let currentItem = (total + activeIndex) % total;
     let nextItem = (total + (activeIndex + 1)) % total;
     let prevItem = (total + (activeIndex - 1)) % total;
-    console.log(currentItem, nextItem, prevItem);
+    // console.log(currentItem, nextItem, prevItem);
     
     if (isActive) {
         // if (e.target.classList.)
@@ -35,7 +35,7 @@ let checkActive = (e) => {
         if(url)
         window.open(url,'_blank')
         
-        console.log('noting',carrouselElement);
+        // console.log('noting',carrouselElement);
 
        
     }
@@ -62,7 +62,7 @@ let checkActive = (e) => {
             }
         })
     }
-    console.log(active);
+    // console.log(active);
 
 
 }
